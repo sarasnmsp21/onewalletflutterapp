@@ -1,11 +1,28 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
+import 'dart:ui';
 
-class BillToPay with ChangeNotifier {
-  final String title;
-  final String subtitle;
-  final IconData icon;
-
-  BillToPay(
-      {@required this.title, @required this.subtitle, @required this.icon});
-}
+List billtopay = [
+  {
+    "name": "Electricity",
+    "amount": "\$ 7867.98",
+    "date": "15/01/2020",
+    "color": Color(0xFFFF0000)
+  },
+  {
+    "name": "Milk",
+    "amount": "\$ 8765.98",
+    "date": "15/01/2020",
+    "color": Color(0xFFADD8E6)
+  },
+  {
+    "name": "Water",
+    "amount": "\$ 4534.98",
+    "date": "15/01/2020",
+    "color": Color(0xFF008000)
+  },
+  {
+    "name": "Mobile",
+    "amount": "\$ 9870.98",
+    "date": "15/01/2020",
+    "color": Color(0xFFFFA12C)
+  },
+];
